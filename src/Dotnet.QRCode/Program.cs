@@ -1,10 +1,10 @@
-﻿using dotnet_qrcode;
+﻿using Dotnet.QRCode;
 using Spectre.Console;
 using Spectre.Console.Cli;
 
-internal class Program
+public class Program
 {
-    private static int Main(string[] args)
+    public static int Main(string[] args)
     {
         var app = new CommandApp<QRCodeCommand>();
         app.Configure(config =>

@@ -1,5 +1,5 @@
 $package = 'dotnet-qrcode'
-$csproj = "src/Dotnet.QRCode/dotnet-qrcode.csproj"
+$csproj = "src/Dotnet.QRCode/Dotnet.QRCode.csproj"
 
 dotnet tool uninstall -g $package
 
