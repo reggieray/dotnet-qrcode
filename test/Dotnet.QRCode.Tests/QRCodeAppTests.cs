@@ -9,14 +9,14 @@ namespace Dotnet.QRCode.Tests
         [MemberData(nameof(SingleAndMultipleArgumentsTestData))]
         public async void Should_Handle_SingleAndMultipleArguments(string[] args)
         {
-            //Given
+            //Arrange
             var app = new CommandAppTester();
             app.SetDefaultCommand<QRCodeCommand>();
 
-            // When
+            //Act
             var result = await app.RunAsync(args);
 
-            // Then
+            //Assert
             result.ExitCode.Should().Be(0);
             result.Settings.Should().BeOfType<QRCodeCommandSettings>()
                 .Which.Text.Should().BeEquivalentTo(args);
