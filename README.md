@@ -7,7 +7,7 @@ The tool takes text input to create a QR code.
 # Installation
 
 ```
-dotnet tool install -g Regis.Dotnet.QRCode --version 0.0.1
+dotnet tool install -g Regis.Dotnet.QRCode --version 0.0.2
 ```
 
 # Usage

@@ -11,8 +11,8 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageVersion>0.0.1</PackageVersion>
-    <Version>0.0.1</Version>
+    <PackageVersion>0.0.2</PackageVersion>
+    <Version>0.0.2</Version>
 
     <Authors>Matthew Regis</Authors>
     <Description>.NET tool for creating QR codes</Description>
