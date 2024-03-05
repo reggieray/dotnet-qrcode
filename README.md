@@ -34,3 +34,9 @@ To create a QR code for 'Hello, World!', type:
 ```
 dotnet-qr "Hello, World!"
 ```
+
+# Demo
+
+> **_NOTE:_**  Please note you can zoom out if the QR code generated is larger than the terminal window.
+
+![Demo](demo.gif)
