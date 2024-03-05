@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Dotnet.QRCode\Dotnet.QRCode.csproj" />
+    <ProjectReference Include="..\..\src\Regis.Dotnet.QRCode\Regis.Dotnet.QRCode.csproj" />
   </ItemGroup>
 
 </Project>
